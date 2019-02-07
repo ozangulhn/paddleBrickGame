@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="paddleBrickGame:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="paddleBrickGame_jar.jar">
+      <element id="archive" name="paddleBrickGame.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$USER_HOME$/Desktop/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="paddleBrickGame" />
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
